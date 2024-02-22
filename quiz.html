@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="title.png" type="image/png">
+</head>
+<body>
+    <header id="header">
+        <div class="logo">
+            
+            <img src="logo.jpeg" alt="Image of blog logo">
+        </div>
+
+        <nav>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html" target="_blank">Blog</a></li>
+                <li><a href="contact.html" target="_blank">Contact</a></li>
+                <li><a href="quiz.html" target="_blank">Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <form id="quizForm">
+        <h2>Question 1: What does HTML stand for?</h2>
+        <input type="radio" name="question1" value="A"> Hyper Text Markup Language<br>
+        <input type="radio" name="question1" value="B"> Hyperlinks and Text Markup Language<br>
+      
+        <!-- Repeat for all questions -->
+      
+        <button type="button" onclick="submitQuiz()">Submit</button>
+      </form>
+      
+      <div id="result"></div>
+      
+    <script src="index.js"></script>
+</body>
+</html>
